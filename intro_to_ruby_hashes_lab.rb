@@ -4,7 +4,7 @@ def new_hash(new_hash = {})
 end
 
 def my_hash(my_hash)
-  my_hash {
+  my_hash = {
     :message => "Hello world"
     :message2 => "Goodbye world"
   }
