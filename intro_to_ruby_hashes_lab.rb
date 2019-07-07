@@ -3,10 +3,7 @@ def new_hash(new_hash = {})
   new_hash
 end
 
-def my_hash(hash)
-  hash = {
-    :message => "Hello world"
-  }
+def my_hash(hash = {:message => "Hello world"})
   # return a valid hash with any key/value pair of your choice
 end
 
