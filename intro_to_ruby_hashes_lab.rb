@@ -4,11 +4,12 @@ def new_hash(new_hash = {})
 end
 
 def my_hash(pets = {:cat => "Maru",:dog => "Pluto"})
-  # pets
+  pets
   # return a valid hash with any key/value pair of your choice
 end
 
-def pioneer
+def pioneer(women_in_tech = {:name => "Grace Hopper"})
+  pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
 end
 
