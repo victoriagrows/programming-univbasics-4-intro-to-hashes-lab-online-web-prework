@@ -3,7 +3,7 @@ def new_hash(new_hash = {})
   new_hash
 end
 
-def my_hash(pets = {})
+def my_hash(pets)
   pets = {
     :cat => "Maru",
     :dog => "Pluto"
