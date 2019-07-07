@@ -9,7 +9,7 @@ def my_hash(pets = {:cat => "Maru",:dog => "Pluto"})
 end
 
 def pioneer(women_in_tech = {:name => "Grace Hopper"})
-  pioneer
+  women_in_tech
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
 end
 
